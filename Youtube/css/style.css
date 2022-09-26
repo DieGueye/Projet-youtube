@@ -1,0 +1,458 @@
+body{
+  margin: 0 auto;
+}
+hr{
+    width: 250px;
+    margin-left: -3px;
+    
+}
+header{
+    position: fixed;
+    margin: 0 auto;
+}
+/* MENU1 */
+
+.tree-line{
+    margin-bottom: 22px;
+}
+.gauche p{
+    margin-left: 170px;
+    margin-top: -56px;
+    font-size: 12px;
+}
+.gauche a{
+    text-decoration: none;
+}
+.gauche{
+    margin-left: 30px;
+}
+.gauche img{
+    margin-right: 20px;
+}
+.center{
+    align-content: center;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+.center input{
+   width: 600px;
+   height: 40px;
+   border-radius: 5px;
+   border-style: solid;
+   border-color: #f2f2f2;
+}
+.search{
+    background-color:#f2f2f2 ;
+    width: 50px;
+    height: 45px;
+    margin-left: -55px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 0 auto;
+    position: relative;
+    top: -3px;
+    right: 55px;
+}
+.search img{
+    margin-left: 10px;
+    margin: 0 auto;
+    padding-left: 10px;
+    position: relative;
+    top: 6px;
+
+}
+.micro {
+    background-color:#f2f2f2 ;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: -3px;
+    right: 50px;
+}
+.micro img{
+    margin: 0 auto;
+    position: relative;
+    top: 6px;
+    left: 8px;
+
+}
+
+.center div{
+    display: inline-block;
+}
+
+.droite{
+    float: right;
+    margin-top: -40px;
+    margin-right: 40px;
+}
+.droite img{
+    margin-right: 20px;
+}
+.profil{
+    border-radius: 50%;
+}
+/* ------------------*/
+#btn{
+    margin-left: 250px;
+    width: 100%;
+}
+#btn img{
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+}
+#btn div a{
+    text-decoration: none;
+    color: black;
+}
+#btn .home-content a{
+    margin: 0 auto;
+    position: relative;
+    margin-left: 24%;
+    font-size: 14px;
+    font-weight:500 ;
+}
+.home-content{
+    background-color: #f2f2f2;
+    height: 30px;
+    border-radius: 60px;
+}
+.tous{
+    background-color: black;
+    width: 4%;
+}
+.direct{
+    width: 6%;
+}
+.melanger{
+    width: 6%;
+}
+.Musique{
+    width: 6%;
+}
+.Series{
+    width: 10%;
+}
+.Mbalax{
+    width: 6%;
+}
+.Diffusion{
+    width: 10%;
+}
+.Comedie{
+    width: 12%;
+}
+.Rap{
+    width: 6%;
+}
+.Scene{
+    width: 6%;
+}
+
+.separator{
+    width: 1200px;   
+    
+}
+/* MENU2 */
+.menu2{
+    margin-top: -60px;
+}
+#btn div{
+    display: inline-block;
+}
+
+.home{
+    background-color: #f2f2f2;
+    width: 247px;
+}
+.content:hover{
+    background-color: #f2f2f2;
+    width: 247px;
+}
+.menu2 .home a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .home a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+.icone-home{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+/* ------------- */
+.menu2 .explorer a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .explorer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+.icone-explorer{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+/* ------------- */
+.menu2 .shorts a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .shorts a{
+    text-decoration: none;
+    color: black;
+    margin-left: 18px;
+}
+
+.icone-shorts{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-shorts{
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+    right: 14px;
+}
+/* ------------- */
+.menu2 .subcribe a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .subcribe a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+.icone-subcribe{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-subcribe{
+    margin: 0 auto;
+    position: relative;
+    top: -5px;
+    right: 7px;
+}
+/* ------------- */
+.menu2 .biblio a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .biblio a{
+    text-decoration: none;
+    color: black;
+    margin-left: 28px;
+}
+
+.icone-biblio{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-biblio{
+    margin: 0 auto;
+    position: relative;
+    top: -5px;
+    right: 7px;
+}
+/* ------------- */
+.menu2 .hst a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .hst a{
+    text-decoration: none;
+    color: black;
+    margin-left: 28px;
+}
+
+.icone-hst{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-hst{
+    margin: 0 auto;
+    position: relative;
+    top: -5px;
+    right: 7px;
+}
+/* ------------- */
+.menu2 .vd a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .vd a{
+    text-decoration: none;
+    color: black;
+    margin-left: 28px;
+}
+
+.icone-vd{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-vd{
+    margin: 0 auto;
+    position: relative;
+    top: -5px;
+    right: 5px;
+}
+/* ------------- */
+.menu2 .time a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .time a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+
+.icone-time{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-time{
+    margin: 0 auto;
+    position: relative;
+    top: -5px;
+    right: 5px;
+}
+/* ------------- */
+.menu2 .like a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .like a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+
+.icone-like{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-like{
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+    right: 5px;
+}
+/* ------------- */
+.menu2 .plus a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .plus a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+
+.icone-plus{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-plus{
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+    right: 5px;
+}
+/* ------------- */
+.menu2 .chaine a div{
+    display: inline-block;
+    margin-right:20px ;
+
+}
+.menu2 .chaine a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+
+.icone-chaine{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.text-chaine{
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+    right: 5px;
+}
+
+/* SECTION VIDEO */
+#video{
+    float: right;
+    margin: 0 auto;
+    position:fixed;
+    left: 250px;
+    margin-top: 150px;
+    background-color: #f2f2f2;
+    width: 1200px;
+
+}
+#video .sect1-video .video{
+    display: inline-block;
+}
+#video .sect2-video .video{
+    display: inline-block;
+}
+
+#video .frame{
+   margin-right: 20px;
+}
+.sect1-video a .video-titre{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.sect1-video a {
+    text-decoration: none;
+    color: black;
+}
+.sect2-video a .video-titre{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.sect2-video a {
+    text-decoration: none;
+    color: black;
+}
+.description{
+    margin-left: 50px;
+    margin-top: -20px;
+
+}
+
+
